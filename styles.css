@@ -1,0 +1,36 @@
+/* Container styling */
+.container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100vh; /* Make it full viewport height */
+    background-color: slategray; /* Optional: background for the body */
+}
+
+/* Main box styling */
+.main-box {
+    text-align: center; /* Center text horizontally */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+}
+
+/* Image styling */
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+h4 {
+    margin: 0; /* Removes default margin */
+    line-height: 1.2; /* Adjusts the spacing between lines if needed */
+}
+
+/* Center the last text */
+.center-text {
+    margin-top: 10px;
+    text-align: center;
+}
